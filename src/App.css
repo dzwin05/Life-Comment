@@ -15,21 +15,30 @@
 
 }
 
-.video-item > h2 {
+.camera-item > h2 {
   text-align: center;
 }
 
-.video-item > video {
+.camera-item > video {
   border: 1px solid red;
   width: 250px;
   height: 188px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button, a {
+  border: none;
+  font-size: 14px;
+  background: #ccc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
+
+
+
+.App {
+  text-align: center;
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -44,13 +53,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
